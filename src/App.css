@@ -18,13 +18,13 @@
   width: 100%;
 }
 .footer-background-color{
-  background-color:burlywood;
+  background-color:black;
 }
 .bootom-footer{
-  background-color: rgb(205, 92, 143);
+  background-color: rgb(23, 21, 22);
 }
 .backstyling{
-  background-color: rgb(161, 203, 252);
+  background-color: wheat;
 }
 .socialspictures{
   height: 70px;
@@ -34,7 +34,7 @@
 
 
 .App-header {
-  background-color: #24dde0;
+  background-color: #202e2e;
   min-height: 10vh;
   display: flex;
   flex-direction: column;

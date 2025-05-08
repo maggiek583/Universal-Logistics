@@ -9,6 +9,14 @@ import Navbar from './components/Navbar';
 import Addproducts from './components/Addproducts';
 import Aboutus from './components/Aboutus';
 import Notfound from './components/Notfound';
+import Chat from './components/Chat';
+import Mpesapayment from './components/Makepayment';
+import Cart from './components/Cart';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+
+
 
 
 function App() {
@@ -26,7 +34,11 @@ function App() {
               <Route path='/signup' element={<Signup/>}/>
               <Route path='/addproducts' element={<Addproducts/>}/>
               <Route path='/aboutus' element={<Aboutus/>}/>
+              <Route path='/chat' element={<Chat/>}/>
+              <Route path='/makepayment' element={<Mpesapayment/>}/>
+              <Route path="/cart" element={<Cart />} />
               <Route path='/*' element={<Notfound/>}/>
+              
             </Routes>
           </div>
         </Router>
